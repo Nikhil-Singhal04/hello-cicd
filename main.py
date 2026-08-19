@@ -5,4 +5,4 @@ cur=os.getcwd()
 for i in os.listdir(cur):
     if os.path.isfile():
         print(i)
-# print(len(os.listdir(os.getcwd())))
+print(len(os.listdir(os.getcwd())))
